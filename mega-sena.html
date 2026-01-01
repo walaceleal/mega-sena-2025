@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Bolão - Jogos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background: #fff;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        th {
+            background: #2c3e50;
+            color: #fff;
+        }
+
+        .number {
+            display: inline-block;
+            padding: 6px 8px;
+            margin: 3px;
+            border-radius: 6px;
+            background: #e0e0e0;
+            cursor: pointer;
+            user-select: none;
+            transition: 0.2s;
+        }
+
+        .number:hover {
+            background: #d0d0d0;
+        }
+
+        .number.selected {
+            background: #27ae60;
+            color: #fff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Bolão - Jogos</h2>
+
+<table>
+    <tr>
+        <th>Participante</th>
+        <th>Jogo 1</th>
+        <th>Jogo 2</th>
+        <th>Jogo 3</th>
+    </tr>
+
+    <tr>
+        <td>Tia Dayse</td>
+        <td>
+            <span class="number">01</span><span class="number">03</span><span class="number">07</span>
+            <span class="number">25</span><span class="number">45</span><span class="number">60</span>
+        </td>
+        <td>
+            <span class="number">08</span><span class="number">11</span><span class="number">12</span>
+            <span class="number">21</span><span class="number">31</span><span class="number">54</span>
+        </td>
+        <td>
+            <span class="number">02</span><span class="number">09</span><span class="number">17</span>
+            <span class="number">23</span><span class="number">49</span><span class="number">52</span>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Waleska</td>
+        <td>
+            <span class="number">09</span><span class="number">13</span><span class="number">25</span>
+            <span class="number">33</span><span class="number">59</span><span class="number">60</span>
+        </td>
+        <td>
+            <span class="number">09</span><span class="number">13</span><span class="number">16</span>
+            <span class="number">32</span><span class="number">42</span><span class="number">51</span>
+        </td>
+        <td>
+            <span class="number">08</span><span class="number">13</span><span class="number">21</span>
+            <span class="number">34</span><span class="number">43</span><span class="number">44</span>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Renan</td>
+        <td>
+            <span class="number">09</span><span class="number">13</span><span class="number">17</span>
+            <span class="number">28</span><span class="number">40</span><span class="number">42</span>
+        </td>
+        <td>
+            <span class="number">02</span><span class="number">19</span><span class="number">21</span>
+            <span class="number">32</span><span class="number">35</span><span class="number">40</span>
+        </td>
+        <td>
+            <span class="number">11</span><span class="number">16</span><span class="number">23</span>
+            <span class="number">39</span><span class="number">43</span><span class="number">45</span>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Fabiano</td>
+        <td>
+            <span class="number">01</span><span class="number">03</span><span class="number">11</span>
+            <span class="number">24</span><span class="number">38</span><span class="number">43</span>
+        </td>
+        <td>
+            <span class="number">07</span><span class="number">15</span><span class="number">23</span>
+            <span class="number">28</span><span class="number">44</span><span class="number">60</span>
+        </td>
+        <td>
+            <span class="number">01</span><span class="number">24</span><span class="number">33</span>
+            <span class="number">38</span><span class="number">44</span><span class="number">60</span>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Fabiane</td>
+        <td>
+            <span class="number">07</span><span class="number">08</span><span class="number">11</span>
+            <span class="number">12</span><span class="number">14</span><span class="number">30</span>
+        </td>
+        <td>
+            <span class="number">02</span><span class="number">07</span><span class="number">08</span>
+            <span class="number">11</span><span class="number">14</span><span class="number">19</span>
+        </td>
+        <td>
+            <span class="number">01</span><span class="number">03</span><span class="number">05</span>
+            <span class="number">07</span><span class="number">09</span><span class="number">21</span>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Beatriz</td>
+        <td>
+            <span class="number">01</span><span class="number">04</span><span class="number">15</span>
+            <span class="number">17</span><span class="number">25</span><span class="number">42</span>
+        </td>
+        <td>
+            <span class="number">01</span><span class="number">03</span><span class="number">11</span>
+            <span class="number">19</span><span class="number">25</span><span class="number">42</span>
+        </td>
+        <td>
+            <span class="number">01</span><span class="number">02</span><span class="number">15</span>
+            <span class="number">19</span><span class="number">25</span><span class="number">42</span>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Elvira</td>
+        <td>
+            <span class="number">05</span><span class="number">16</span><span class="number">25</span>
+            <span class="number">30</span><span class="number">48</span><span class="number">54</span>
+        </td>
+        <td>
+            <span class="number">04</span><span class="number">06</span><span class="number">18</span>
+            <span class="number">22</span><span class="number">35</span><span class="number">40</span>
+        </td>
+        <td>
+            <span class="number">10</span><span class="number">15</span><span class="number">19</span>
+            <span class="number">20</span><span class="number">27</span><span class="number">38</span>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Walace</td>
+        <td>
+            <span class="number">02</span><span class="number">03</span><span class="number">14</span>
+            <span class="number">25</span><span class="number">34</span><span class="number">54</span>
+        </td>
+        <td>
+            <span class="number">01</span><span class="number">08</span><span class="number">38</span>
+            <span class="number">39</span><span class="number">44</span><span class="number">55</span>
+        </td>
+        <td>
+            <span class="number">02</span><span class="number">15</span><span class="number">28</span>
+            <span class="number">33</span><span class="number">41</span><span class="number">57</span>
+        </td>
+    </tr>
+
+</table>
+
+<script>
+    document.querySelectorAll('.number').forEach(num => {
+        num.addEventListener('click', () => {
+            num.classList.toggle('selected');
+        });
+    });
+</script>
+
+</body>
+</html>
